@@ -1,0 +1,41 @@
+@charset "UTF-08";
+/* Todas as demais mídias*/
+/*Typical Device Breakpoints
+------------------------------
+Pequenas telas = até 600px
+Celular = de 600px até 768px
+Tablet = 768px até 992px
+Desktop = 992px até 1200px
+Grandes telas = acima de 1200px
+*/
+
+@media screen and (min-width:768px)  {
+    .hamburger{
+        display: none;
+        
+    }
+    #lista_de_opcoes{
+        display:block;
+    }
+    ul{
+        text-align: left;
+        margin-left: 5px;
+    }
+    
+    ul li{
+        display: inline-block;
+        background-color: rgba(43, 43, 43, 0.808);
+        gap:10px;
+        border: 2px solid black;   
+    }
+    .navbar{
+        box-shadow: none;
+        background-color: rgba(138, 134, 134, 0.61);
+    }
+    article{
+        width: 650px;
+    }
+    menu h1{
+        font-size: 2em;
+}
+}
